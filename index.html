@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dad — Schedule &amp; Medications</title>
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 960px; margin: 0 auto; padding: 16px; color: #e2e2e2; background: #121212; }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .updated { font-size: 13px; color: #666; margin-bottom: 24px; }
+  h2 { font-size: 16px; margin-top: 32px; margin-bottom: 12px; border-bottom: 2px solid #444; padding-bottom: 6px; color: #fff; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 8px; }
+  th { text-align: left; background: #1e1e1e; padding: 8px 10px; font-weight: 600; color: #ccc; }
+  td { padding: 8px 10px; border-bottom: 1px solid #2a2a2a; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 10px; }
+  .tag-urgent { background: #3d1212; color: #f87171; }
+  .tag-today { background: #3d2e00; color: #fbbf24; }
+  .tag-pending { background: #0f1f3d; color: #60a5fa; }
+  .tag-done { background: #0d2b1a; color: #4ade80; }
+  .tag-out { background: #0d2b1a; color: #4ade80; }
+  .tag-in { background: #3d1212; color: #f87171; }
+  .note { font-size: 13px; color: #999; margin-top: 8px; padding: 10px 12px; background: #1a1a1a; border-left: 3px solid #444; border-radius: 0 4px 4px 0; }
+</style>
+</head>
+<body>
+
+<h1>Dad — Schedule &amp; Medications</h1>
+<p class="updated">Last updated: 26 February 2026, 18:07 GMT — Dad discharged today</p>
+
+
+<h2>Upcoming Appointments</h2>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Appointment</th>
+    <th>Patient type</th>
+    <th>Transport</th>
+  </tr>
+  <tr>
+    <td><strong>26 Feb</strong><br>Today</td>
+    <td>14:15</td>
+    <td>Radiotherapy — Session 2 <span class="tag tag-today">Today</span></td>
+    <td><span class="tag tag-in">Inpatient</span></td>
+    <td>Mum + Michael driving home after</td>
+  </tr>
+  <tr>
+    <td><strong>27 Feb</strong><br>Fri</td>
+    <td>10:45</td>
+    <td>Radiotherapy — Session 3</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum + Michael</td>
+  </tr>
+  <tr>
+    <td><strong>28 Feb</strong><br>Sat</td>
+    <td>08:30</td>
+    <td>Dialysis</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum</td>
+  </tr>
+  <tr>
+    <td><strong>2 Mar</strong><br>Mon</td>
+    <td>07:00</td>
+    <td>Dialysis</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum</td>
+  </tr>
+  <tr>
+    <td><strong>2 Mar</strong><br>Mon</td>
+    <td>08:30</td>
+    <td>Clinical Oncology — Dr Charlotte Ingle</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum</td>
+  </tr>
+  <tr>
+    <td><strong>2 Mar</strong><br>Mon</td>
+    <td>14:00</td>
+    <td>Radiotherapy — Session 4</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum</td>
+  </tr>
+  <tr>
+    <td><strong>3 Mar</strong><br>Tue</td>
+    <td>11:15</td>
+    <td>Radiotherapy — Session 5</td>
+    <td><span class="tag tag-out">Outpatient</span></td>
+    <td>Mum</td>
+  </tr>
+  <tr>
+    <td><strong>3 Mar</strong><br>Tue</td>
+    <td>12:00</td>
+    <td>James — visiting Mum &amp; Dad's house to coordinate chairlift installation</td>
+    <td><span class="tag tag-pending">Home visit</span></td>
+    <td>James</td>
+  </tr>
+</table>
+
+<div class="note">Note: Monday 2 March is a very full day — dialysis at 7am, oncology at 8:30, radiotherapy at 14:00. Worth monitoring how Dad copes.</div>
+<div class="note" style="border-left-color: #f87171; margin-top: 8px;"><strong style="color: #f87171;">A&amp;E warning:</strong> If Dad experiences chest pain or shortness of breath at any time, go straight to A&amp;E. Do not wait.</div>
+
+<h2>Tomorrow — Actions (27 Feb)</h2>
+<table>
+  <tr>
+    <th>Action</th>
+    <th>Who</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Collect meds from <strong>Peldon Ward</strong> — <strong>Dexamethasone</strong> + <strong>Omeprazole</strong> (hospital unable to supply full amount)</td>
+    <td>Michael / Mum</td>
+    <td><span class="tag tag-urgent">To do</span></td>
+  </tr>
+  <tr>
+    <td>Call oncology team — confirm Monday schedule and flag it is a very full day</td>
+    <td>Michael / Mum</td>
+    <td><span class="tag tag-urgent">To do</span></td>
+  </tr>
+  <tr>
+    <td>Call dialysis nurses — coordinate Monday 2 March (dialysis at 07:00, oncology at 08:30, radiotherapy at 14:00)</td>
+    <td>Michael / Mum</td>
+    <td><span class="tag tag-urgent">To do</span></td>
+  </tr>
+</table>
+
+<h2>Still Needs Rebooking</h2>
+<table>
+  <tr>
+    <th>Appointment</th>
+    <th>Status</th>
+    <th>Who to contact</th>
+  </tr>
+  <tr>
+    <td>Hip MRI</td>
+    <td><span class="tag tag-urgent">Cancelled</span></td>
+    <td>Mr Lopez, Turner Centre</td>
+  </tr>
+</table>
+
+<h2>Current Medications</h2>
+<table>
+  <tr>
+    <th>Medication</th>
+    <th>Dose</th>
+    <th>Frequency</th>
+    <th>Purpose</th>
+    <th>Stock</th>
+    <th>Stock notes</th>
+  </tr>
+  <tr>
+    <td>Dexamethasone tablet</td>
+    <td>2mg — 3 tablets (6mg) morning<br>3 tablets (6mg) evening</td>
+    <td>Twice daily — 12mg total</td>
+    <td>Steroid — reduces swelling around the tumour and manages inflammation during radiotherapy</td>
+    <td>168 tablets</td>
+    <td>28 days supply — collecting from Peldon Ward (27 Feb)</td>
+  </tr>
+  <tr>
+    <td>Omeprazole gastro-resistant capsule</td>
+    <td>20mg</td>
+    <td>Once daily</td>
+    <td>Stomach protector — prevents ulcers and acid damage caused by dexamethasone</td>
+    <td>28 capsules</td>
+    <td>28 days supply — collecting from Peldon Ward (27 Feb). Starts 27 Feb.</td>
+  </tr>
+  <tr>
+    <td>Fortisip Compact Protein (liquid)</td>
+    <td>125ml</td>
+    <td>Morning and evening</td>
+    <td>Nutritional supplement — maintains weight and protein intake during treatment</td>
+    <td>20 bottles</td>
+    <td>16 at home + 4 dispensed by hospital (500ml) — approx 10 days supply</td>
+  </tr>
+  <tr>
+    <td>Renavit tablet</td>
+    <td>1 tablet</td>
+    <td>Once daily</td>
+    <td>Renal vitamin supplement — replaces vitamins lost during dialysis</td>
+    <td>100 tablets</td>
+    <td>100 days supply</td>
+  </tr>
+  <tr>
+    <td>Mometasone nasal spray</td>
+    <td>50mcg</td>
+    <td>Once daily (1 spray each nostril)</td>
+    <td>Steroid nasal spray — reduces nasal inflammation and congestion</td>
+    <td>140 actuations</td>
+    <td>70 days supply</td>
+  </tr>
+  <tr>
+    <td>Fexofenadine tablet</td>
+    <td>120mg</td>
+    <td>Once daily</td>
+    <td>Antihistamine — controls allergy symptoms</td>
+    <td>28 tablets</td>
+    <td>28 days supply</td>
+  </tr>
+  <tr>
+    <td>Zopiclone tablet</td>
+    <td>3.75mg</td>
+    <td>Once nightly as needed</td>
+    <td>Sleeping tablet — short-term help with sleep disturbance</td>
+    <td>7 tablets</td>
+    <td>As needed — reorder when low</td>
+  </tr>
+</table>
+
+</body>
+</html>
