@@ -1,5 +1,5 @@
 # Dad Medical Status
-Last updated: 5 March 2026, 10:21 GMT
+Last updated: 5 March 2026, 14:21 GMT
 
 ---
 
@@ -112,6 +112,8 @@ Last updated: 5 March 2026, 10:21 GMT
 | UCLH — Cancer Clinical Trials Unit | uclh.cctuadministrators@nhs.net | 5 Mar — Emailed. Next: await response. |
 | Amgen UK — Named Patient Programme | 01223 436441 | 5 Mar — Called, left Dad's profile and contact details. Next: await response. |
 | Addenbrooke's — Early Phase Oncology | 01223 254642 / cuh.crfenquiries@nhs.net | 5 Mar — Called 01223 254642. Advised to check takepartinresearch.co.uk — checked, no cancer trials listed. Emailed cuh.crfenquiries@nhs.net. Next: await response. |
+| Cancer Research UK — Nurses team | 0300 123 4452 | 5 Mar — Called. Advised to search cancerresearchuk.org and mdanderson.org. Searched cancerresearchuk.org — no active SCLC trials listed. Next: await any new listings. |
+| MD Anderson Cancer Center | International@MDAnderson.org / 001-713-745-0450 | Active SCLC Phase I/II trials confirmed (ABBV-706, veliparib + temozolomide). 5 Mar — Emailed International Centre re dialysis-dependent patient eligibility. Next: await response. |
 
 ---
 
@@ -119,32 +121,33 @@ Last updated: 5 March 2026, 10:21 GMT
 
 | Source | What was checked |
 |--------|-----------------|
-| CareAcross | UK SCLC trial list |
-| ClinicalTrials.gov | SCLC recruiting trials, UK filter |
-| Cancer Research UK | UK lung cancer trial listings |
-| NIHR Be Part of Research | NIHR-registered trials |
-| NIHR Innovation Office | Tarlatamab SCLC briefing |
-| Tarlatamab Clinical Trials (Amgen) | DeLLphi-306, -309, -312 listings |
-| Health Research Authority | DeLLphi-301 UK approval summary |
+| AACR Journals | DAREON-5 abstract |
 | Amgen Newsroom | Tarlatamab FDA full approval (Nov 2025) |
-| NICE TA1091 | Tarlatamab — not recommended decision (Aug 2025) |
-| OncLive | Tarlatamab UK approval; obrixtamig coverage |
-| Targeted Oncology | SCLC second/third-line landscape; obrixtamig; DeLLphi-304 |
+| ASCO Journals | DeLLphi-304 primary analysis; DeLLphi-305; obrixtamig Phase I |
 | CancerNetwork | Obrixtamig + topotecan; tarlatamab OS data |
-| Oncology News Central | 2026 SCLC advances; ifinatamab response rates |
-| Oncology Pipeline / ApexOnco | IDeate-Lung02 clinical hold (fatal ILD) |
+| Cancer Research UK | UK lung cancer trial listings |
+| CareAcross | UK SCLC trial list |
+| Christie NHS | Trial listings (NSCLC only — not applicable) |
+| ClinicalTrials.gov | SCLC recruiting trials, UK filter |
 | Daiichi Sankyo | IDeate-Lung02 Phase 3 initiation |
 | Dana-Farber Cancer Institute | LAGOON, IDeate-Lung02, DAREON-5 listings |
-| PharmaMar | LAGOON enrollment completion; lurbinectedin status |
-| ASCO Journals | DeLLphi-304 primary analysis; DeLLphi-305; obrixtamig Phase I |
-| AACR Journals | DAREON-5 abstract |
-| NEJM | Tarlatamab in post-platinum SCLC (DeLLphi-304 data) |
-| PubMed / NCBI | Obrixtamig Phase I; ifinatamab; IDeate-Lung02 |
-| PMC | SCLC treatment landscape reviews |
-| The Lancet | IMforte (lurbinectedin + atezolizumab) results |
-| JTO | DeLLphi-305 abstract |
 | Everyone.org | Tarlatamab European approval status; lurbinectedin EMA |
-| Christie NHS | Trial listings (NSCLC only — not applicable) |
-| UCLH | Combination therapy trial listings |
+| Health Research Authority | DeLLphi-301 UK approval summary |
+| JTO | DeLLphi-305 abstract |
+| MD Anderson Cancer Center | SCLC Phase I/II trial listings |
 | Medscape / eMedicine | SCLC treatment overview |
+| NEJM | Tarlatamab in post-platinum SCLC (DeLLphi-304 data) |
+| NICE TA1091 | Tarlatamab — not recommended decision (Aug 2025) |
+| NIHR Be Part of Research | NIHR-registered trials |
+| NIHR Innovation Office | Tarlatamab SCLC briefing |
+| OncLive | Tarlatamab UK approval; obrixtamig coverage |
+| Oncology News Central | 2026 SCLC advances; ifinatamab response rates |
+| Oncology Pipeline / ApexOnco | IDeate-Lung02 clinical hold (fatal ILD) |
+| PharmaMar | LAGOON enrollment completion; lurbinectedin status |
+| PMC | SCLC treatment landscape reviews |
+| PubMed / NCBI | Obrixtamig Phase I; ifinatamab; IDeate-Lung02 |
+| Targeted Oncology | SCLC second/third-line landscape; obrixtamig; DeLLphi-304 |
+| Tarlatamab Clinical Trials (Amgen) | DeLLphi-306, -309, -312 listings |
+| The Lancet | IMforte (lurbinectedin + atezolizumab) results |
+| UCLH | Combination therapy trial listings |
 | Wiley Online Library | ES-SCLC management review |
