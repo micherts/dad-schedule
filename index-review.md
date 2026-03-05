@@ -1,5 +1,5 @@
 # Dad — Schedule & Medications
-Last updated: 5 March 2026, 08:20 GMT
+Last updated: 5 March 2026, 08:45 GMT
 
 ---
 
@@ -30,6 +30,7 @@ Last updated: 5 March 2026, 08:20 GMT
 | Palliative Care team | Family | In contact |
 | Dexamethasone taper schedule — await instructions from Dr Ingles / team | Family | Awaiting |
 | GP appointment — seek 2nd opinion on treatment options (Hardwicke House: 01787 370011) | Family | To do |
+| Second opinion — specialist SCLC centre (The Christie or Royal Marsden) — request via GP (Hardwicke House: 01787 370011) | Michael / Mum | To do |
 | Book chest X-ray at approx 6 weeks post radiotherapy (~14 April 2026) | Michael / Mum | To do |
 
 ---
@@ -53,6 +54,8 @@ Last updated: 5 March 2026, 08:20 GMT
 | Name / Team | Role | Contact |
 |-------------|------|---------|
 | Community Palliative Care | **Main contact going forward** | In contact |
+| The Christie — Thoracic Oncology | Specialist SCLC centre — second opinion | 0161 446 3000 |
+| Royal Marsden — Thoracic Oncology | Specialist SCLC centre — second opinion | 020 7352 8171 |
 | Oncology nurses | Any queries — call anytime | 01206 745097 |
 | Dr Charlotte Ingle | Clinical Oncology | 01206 745087 |
 | Dr Safin Rahman | Thoracic Medicine | 01206 746462 |
