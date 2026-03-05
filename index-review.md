@@ -13,7 +13,7 @@ Last updated: 5 March 2026, 08:49 GMT
 
 | Date & Time | Appointment | Duration | Type | Transport | Contact |
 |-------------|-------------|----------|------|-----------|---------|
-| Mon 9 Mar 16:20 | **Hip MRI** — Mr Lopez, Turner Centre | — | Outpatient | TBC | — |
+| Mon 9 Mar 16:20 | **Hip MRI** — Mr Lopez, Turner Centre | — | Outpatient | James | — |
 | ~Tue 14 Apr | Chest X-ray — radiotherapy response assessment — Radiology, Colchester Hospital — to be booked | — | To book | TBC | — |
 
 **Dialysis pattern:** HDF (Haemodiafiltration) via CVC, 3.5 hrs per session. Twice a week. Confirm each session time with Renal Unit (01206 747576).
