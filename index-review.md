@@ -1,5 +1,5 @@
 # Dad — Schedule & Medications
-Last updated: 5 March 2026, 08:45 GMT
+Last updated: 5 March 2026, 08:49 GMT
 
 ---
 
@@ -64,6 +64,19 @@ Last updated: 5 March 2026, 08:45 GMT
 | Renal Unit | Dialysis queries | 01206 747576 |
 | GP — Hardwicke House Group Practice | GP / 2nd opinion | 01787 370011 |
 | Mr Lopez | Orthopaedic / Hip MRI — Turner Centre | — |
+
+---
+
+## Questions for Dr Ingles
+
+| # | Question | Context |
+|---|----------|---------|
+| 1 | Phase I referral — Addenbrooke's or UCLH Early Phase Oncology | UCLH already contacted directly — awaiting response |
+| 2 | Tarlatamab named patient access — contact Amgen UK: 01223 436441 | Hepatically cleared — may suit renal patients |
+| 3 | Was tumour molecular profiling done? | Rare chance of actionable mutation |
+| 4 | Stereotactic radiotherapy (SABR) to specific metastases — was it considered? | Depends on location/number of metastases |
+| 5 | Obrixtamig (DAREON-5) — confirm UK trial sites and renal exclusion criteria | Boehringer Ingelheim Phase II trial |
+| 6 | Dexamethasone taper schedule | Awaiting instructions from team |
 
 ---
 
