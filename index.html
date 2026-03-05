@@ -3,12 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dad — Schedule &amp; Medications</title>
+<title>Dad Medical Status</title>
 <style>
   body { font-family: -apple-system, sans-serif; max-width: 960px; margin: 0 auto; padding: 16px; color: #1a1a1a; background: #fff; }
   h1 { font-size: 20px; margin-bottom: 4px; }
   .updated { font-size: 13px; color: #888; margin-bottom: 24px; }
-  h2 { font-size: 16px; margin-top: 32px; margin-bottom: 12px; border-bottom: 2px solid #1a1a1a; padding-bottom: 6px; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 8px; }
   th { text-align: left; background: #f2f2f2; padding: 8px 10px; font-weight: 600; }
   td { padding: 8px 10px; border-bottom: 1px solid #e8e8e8; vertical-align: top; }
@@ -23,18 +22,25 @@
   .tag-in { background: #fde8e8; color: #b91c1c; }
   .tag-confirm { background: #fef3cd; color: #92400e; }
   .note { font-size: 13px; color: #555; margin-top: 8px; padding: 10px 12px; background: #f9f9f9; border-left: 3px solid #ccc; border-radius: 0 4px 4px 0; }
+  .acc-header { width: 100%; text-align: left; background: none; border: none; border-bottom: 2px solid #1a1a1a; padding: 8px 0 6px 0; margin-top: 32px; font-size: 16px; font-weight: 700; color: #1a1a1a; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+  .acc-header:hover { color: #444; }
+  .acc-icon { font-size: 14px; transition: transform 0.2s; }
+  .acc-icon.closed { transform: rotate(-90deg); }
+  .acc-body { overflow: hidden; transition: max-height 0.25s ease; }
+  .acc-body.closed { max-height: 0 !important; }
 </style>
 </head>
 <body>
 
-<h1>Dad — Schedule &amp; Medications</h1>
+<h1>Dad Medical Status</h1>
 <p class="updated">Last updated: 5 March 2026, 10:21 GMT</p>
 
 <div class="note" style="border-left-color: #f87171; margin-bottom: 24px;"><strong style="color: #b91c1c;">Diagnosis (2 March 2026):</strong> Small cell lung cancer (SCLC) — metastatic. Treatment focus is palliative. Radiotherapy complete after 3 March. Community Palliative Care team taking over as lead contact.</div>
 <div class="note" style="border-left-color: #f87171; margin-bottom: 8px;"><strong style="color: #f87171;">A&amp;E warning:</strong> If Dad experiences chest pain or shortness of breath at any time, go straight to A&amp;E. Do not wait.</div>
 
 
-<h2>Upcoming Appointments</h2>
+<button class="acc-header" onclick="toggle(this)">Upcoming Appointments <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th style="white-space: nowrap; min-width: 110px;">Date &amp; Time</th>
@@ -61,12 +67,13 @@
     <td>—</td>
   </tr>
 </table>
-
 <div class="note"><strong>Dialysis pattern:</strong> HDF (Haemodiafiltration) via CVC, 3.5 hrs per session. Twice a week. Confirm each session time with Renal Unit (01206 747576).</div>
 <div class="note" style="margin-top: 8px;"><strong>Radiotherapy complete after 3 March.</strong> Side effects and benefits both expected to peak around 6 weeks post-treatment (approx mid-April).</div>
+</div>
 
 
-<h2>Open Actions</h2>
+<button class="acc-header" onclick="toggle(this)">Open Actions <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th>Action</th>
@@ -89,9 +96,11 @@
     <td><span class="tag tag-pending">To do</span></td>
   </tr>
 </table>
+</div>
 
 
-<h2>Current Medications</h2>
+<button class="acc-header" onclick="toggle(this)">Current Medications <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th>Medication</th>
@@ -158,9 +167,11 @@
     <td>Reorder when low</td>
   </tr>
 </table>
+</div>
 
 
-<h2>Key Contacts</h2>
+<button class="acc-header" onclick="toggle(this)">Key Contacts <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th>Name / Team</th>
@@ -222,17 +233,13 @@
     <td>Orthopaedic / Hip MRI — Turner Centre</td>
     <td>—</td>
   </tr>
-  <tr>
-    <td>Addenbrooke's — Clinical Research Facility</td>
-    <td>Early Phase Oncology enquiries</td>
-    <td>01223 254642 / <a href="mailto:cuh.crfenquiries@nhs.net">cuh.crfenquiries@nhs.net</a></td>
-  </tr>
 </table>
+</div>
 
 
-<h2>Clinical Trials Research</h2>
+<button class="acc-header" onclick="toggle(this)">Clinical Trials Research <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <div class="note" style="margin-bottom: 12px;"><strong>Summary (researched 2 March 2026):</strong> Dad's profile falls outside the eligibility criteria for every currently recruiting UK SCLC trial. The two main barriers are dialysis-dependent kidney failure (trials require CrCl &ge;50 ml/min; Dad's eGFR is 13–14) and performance status (trials require ECOG 0–1). The most realistic options are a referral to a Phase I trials centre or named patient access to tarlatamab.</div>
-
 <table>
   <tr>
     <th>Priority</th>
@@ -247,12 +254,12 @@
   <tr>
     <td>2</td>
     <td>Named patient access — tarlatamab (Imdylltra, Amgen)<br><small style="color:#888">MHRA conditionally approved Jan 2025. NICE declined Aug 2025 — not NHS routine. Hepatically cleared — may suit renal patients. Cost: substantial, likely not NHS-funded.</small></td>
-    <td>Ask Dr Ingles to contact Amgen UK: <strong>01223 436441</strong></td>
+    <td>Ask Dr Ingles to contact Amgen UK: 01223 436441</td>
   </tr>
   <tr>
     <td>3</td>
     <td>Cancer Research UK trials matching service</td>
-    <td>Call <strong>0300 123 4452</strong> — free, will check current protocols</td>
+    <td>Call 0300 123 4452 — free, will check current protocols</td>
   </tr>
   <tr>
     <td>4</td>
@@ -260,7 +267,6 @@
     <td>Contact Boehringer Ingelheim or UCLH/Addenbrooke's Early Phase Trials</td>
   </tr>
 </table>
-
 <table style="margin-top: 12px;">
   <tr>
     <th>Trial / Drug</th>
@@ -293,48 +299,12 @@
     <td>Confirm UK sites and renal exclusion criteria before ruling out</td>
   </tr>
 </table>
-
 <div class="note" style="margin-top: 12px; border-left-color: #94a3b8;"><em>Trial landscape changes frequently. Research conducted 2 March 2026. Verify status before acting. Full research notes in <a href="../clinical-trials-research.md">clinical-trials-research.md</a>.</em></div>
+</div>
 
 
-<h2>Sources Researched</h2>
-<table>
-  <tr>
-    <th>Source</th>
-    <th>What was checked</th>
-  </tr>
-  <tr><td><a href="https://www.careacross.com" target="_blank">CareAcross</a></td><td>UK SCLC trial list</td></tr>
-  <tr><td><a href="https://www.clinicaltrials.gov" target="_blank">ClinicalTrials.gov</a></td><td>SCLC recruiting trials, UK filter</td></tr>
-  <tr><td><a href="https://www.cancerresearchuk.org" target="_blank">Cancer Research UK</a></td><td>UK lung cancer trial listings</td></tr>
-  <tr><td><a href="https://bepartofresearch.nihr.ac.uk" target="_blank">NIHR Be Part of Research</a></td><td>NIHR-registered trials</td></tr>
-  <tr><td><a href="https://io.nihr.ac.uk" target="_blank">NIHR Innovation Office</a></td><td>Tarlatamab SCLC briefing</td></tr>
-  <tr><td><a href="https://www.tarlatamabclinicaltrials.com" target="_blank">Tarlatamab Clinical Trials (Amgen)</a></td><td>DeLLphi-306, -309, -312 listings</td></tr>
-  <tr><td><a href="https://www.hra.nhs.uk" target="_blank">Health Research Authority</a></td><td>DeLLphi-301 UK approval summary</td></tr>
-  <tr><td><a href="https://www.amgen.com/newsroom" target="_blank">Amgen Newsroom</a></td><td>Tarlatamab FDA full approval (Nov 2025)</td></tr>
-  <tr><td><a href="https://www.nice.org.uk/guidance/ta1091" target="_blank">NICE TA1091</a></td><td>Tarlatamab — not recommended decision (Aug 2025)</td></tr>
-  <tr><td><a href="https://www.onclive.com" target="_blank">OncLive</a></td><td>Tarlatamab UK approval; obrixtamig coverage</td></tr>
-  <tr><td><a href="https://www.targetedonc.com" target="_blank">Targeted Oncology</a></td><td>SCLC second/third-line landscape; obrixtamig; DeLLphi-304</td></tr>
-  <tr><td><a href="https://www.cancernetwork.com" target="_blank">CancerNetwork</a></td><td>Obrixtamig + topotecan; tarlatamab OS data</td></tr>
-  <tr><td><a href="https://www.oncologynewscentral.com" target="_blank">Oncology News Central</a></td><td>2026 SCLC advances; ifinatamab response rates</td></tr>
-  <tr><td><a href="https://www.oncologypipeline.com" target="_blank">Oncology Pipeline / ApexOnco</a></td><td>IDeate-Lung02 clinical hold (fatal ILD)</td></tr>
-  <tr><td><a href="https://www.daiichisankyo.us" target="_blank">Daiichi Sankyo</a></td><td>IDeate-Lung02 Phase 3 initiation</td></tr>
-  <tr><td><a href="https://www.dana-farber.org" target="_blank">Dana-Farber Cancer Institute</a></td><td>LAGOON, IDeate-Lung02, DAREON-5 listings</td></tr>
-  <tr><td><a href="https://www.pharmamar.com" target="_blank">PharmaMar</a></td><td>LAGOON enrollment completion; lurbinectedin status</td></tr>
-  <tr><td><a href="https://ascopubs.org" target="_blank">ASCO Journals</a></td><td>DeLLphi-304 primary analysis; DeLLphi-305; obrixtamig Phase I</td></tr>
-  <tr><td><a href="https://aacrjournals.org" target="_blank">AACR Journals</a></td><td>DAREON-5 abstract</td></tr>
-  <tr><td><a href="https://www.nejm.org" target="_blank">NEJM</a></td><td>Tarlatamab in post-platinum SCLC (DeLLphi-304 data)</td></tr>
-  <tr><td><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed / NCBI</a></td><td>Obrixtamig Phase I; ifinatamab; IDeate-Lung02</td></tr>
-  <tr><td><a href="https://pmc.ncbi.nlm.nih.gov" target="_blank">PMC</a></td><td>SCLC treatment landscape reviews</td></tr>
-  <tr><td><a href="https://www.thelancet.com" target="_blank">The Lancet</a></td><td>IMforte (lurbinectedin + atezolizumab) results</td></tr>
-  <tr><td><a href="https://www.jto.org" target="_blank">JTO</a></td><td>DeLLphi-305 abstract</td></tr>
-  <tr><td><a href="https://www.everyone.org" target="_blank">Everyone.org</a></td><td>Tarlatamab European approval status; lurbinectedin EMA</td></tr>
-  <tr><td><a href="https://www.christie.nhs.uk" target="_blank">Christie NHS</a></td><td>Trial listings (NSCLC only — not applicable)</td></tr>
-  <tr><td><a href="https://www.uclh.nhs.uk" target="_blank">UCLH</a></td><td>Combination therapy trial listings</td></tr>
-  <tr><td><a href="https://emedicine.medscape.com" target="_blank">Medscape / eMedicine</a></td><td>SCLC treatment overview</td></tr>
-  <tr><td><a href="https://onlinelibrary.wiley.com" target="_blank">Wiley Online Library</a></td><td>ES-SCLC management review</td></tr>
-</table>
-
-<h2>Questions for Dr Ingles</h2>
+<button class="acc-header" onclick="toggle(this)">Questions for Dr Ingles <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th>#</th>
@@ -372,35 +342,105 @@
     <td>Awaiting instructions from team</td>
   </tr>
 </table>
+</div>
 
-<h2>Phase I Enquiries</h2>
+
+<button class="acc-header" onclick="toggle(this)">Phase I Enquiries <span class="acc-icon">▾</span></button>
+<div class="acc-body">
 <table>
   <tr>
     <th>Centre</th>
     <th>Contact</th>
-    <th>Method</th>
     <th>Status</th>
   </tr>
   <tr>
     <td>UCLH — Cancer Clinical Trials Unit</td>
     <td><a href="mailto:uclh.cctuadministrators@nhs.net">uclh.cctuadministrators@nhs.net</a></td>
-    <td>Email</td>
-    <td>Emailed 5 Mar — awaiting response</td>
+    <td>5 Mar — Emailed. Next: await response.</td>
   </tr>
   <tr>
     <td>Amgen UK — Named Patient Programme</td>
     <td>01223 436441</td>
-    <td>Call</td>
-    <td>Called 5 Mar — left Dad's profile and contact details. Awaiting response.</td>
+    <td>5 Mar — Called, left Dad's profile and contact details. Next: await response.</td>
   </tr>
   <tr>
     <td>Addenbrooke's — Early Phase Oncology</td>
-    <td><a href="mailto:cuh.crfenquiries@nhs.net">cuh.crfenquiries@nhs.net</a></td>
-    <td>Call + Email</td>
-    <td>Called 5 Mar (01223 254642). takepartinresearch.co.uk — no cancer trials listed. Emailed CRF 5 Mar — awaiting response.</td>
+    <td>01223 254642 / <a href="mailto:cuh.crfenquiries@nhs.net">cuh.crfenquiries@nhs.net</a></td>
+    <td>5 Mar — Called 01223 254642. Advised to check takepartinresearch.co.uk — checked, no cancer trials listed. Emailed cuh.crfenquiries@nhs.net. Next: await response.</td>
   </tr>
 </table>
+</div>
 
+
+<button class="acc-header" onclick="toggle(this)">Sources Researched <span class="acc-icon">▾</span></button>
+<div class="acc-body">
+<table>
+  <tr>
+    <th>Source</th>
+    <th>What was checked</th>
+  </tr>
+  <tr><td><a href="https://www.careacross.com" target="_blank">CareAcross</a></td><td>UK SCLC trial list</td></tr>
+  <tr><td><a href="https://www.clinicaltrials.gov" target="_blank">ClinicalTrials.gov</a></td><td>SCLC recruiting trials, UK filter</td></tr>
+  <tr><td><a href="https://www.cancerresearchuk.org" target="_blank">Cancer Research UK</a></td><td>UK lung cancer trial listings</td></tr>
+  <tr><td><a href="https://bepartofresearch.nihr.ac.uk" target="_blank">NIHR Be Part of Research</a></td><td>NIHR-registered trials</td></tr>
+  <tr><td><a href="https://io.nihr.ac.uk" target="_blank">NIHR Innovation Office</a></td><td>Tarlatamab SCLC briefing</td></tr>
+  <tr><td><a href="https://www.tarlatamabclinicaltrials.com" target="_blank">Tarlatamab Clinical Trials (Amgen)</a></td><td>DeLLphi-306, -309, -312 listings</td></tr>
+  <tr><td><a href="https://www.hra.nhs.uk" target="_blank">Health Research Authority</a></td><td>DeLLphi-301 UK approval summary</td></tr>
+  <tr><td><a href="https://www.amgen.com/newsroom" target="_blank">Amgen Newsroom</a></td><td>Tarlatamab FDA full approval (Nov 2025)</td></tr>
+  <tr><td><a href="https://www.nice.org.uk/guidance/ta1091" target="_blank">NICE TA1091</a></td><td>Tarlatamab — not recommended decision (Aug 2025)</td></tr>
+  <tr><td><a href="https://www.onclive.com" target="_blank">OncLive</a></td><td>Tarlatamab UK approval; obrixtamig coverage</td></tr>
+  <tr><td><a href="https://www.targetedonc.com" target="_blank">Targeted Oncology</a></td><td>SCLC second/third-line landscape; obrixtamig; DeLLphi-304</td></tr>
+  <tr><td><a href="https://www.cancernetwork.com" target="_blank">CancerNetwork</a></td><td>Obrixtamig + topotecan; tarlatamab OS data</td></tr>
+  <tr><td><a href="https://www.oncologynewscentral.com" target="_blank">Oncology News Central</a></td><td>2026 SCLC advances; ifinatamab response rates</td></tr>
+  <tr><td><a href="https://www.oncologypipeline.com" target="_blank">Oncology Pipeline / ApexOnco</a></td><td>IDeate-Lung02 clinical hold (fatal ILD)</td></tr>
+  <tr><td><a href="https://www.daiichisankyo.us" target="_blank">Daiichi Sankyo</a></td><td>IDeate-Lung02 Phase 3 initiation</td></tr>
+  <tr><td><a href="https://www.dana-farber.org" target="_blank">Dana-Farber Cancer Institute</a></td><td>LAGOON, IDeate-Lung02, DAREON-5 listings</td></tr>
+  <tr><td><a href="https://www.pharmamar.com" target="_blank">PharmaMar</a></td><td>LAGOON enrollment completion; lurbinectedin status</td></tr>
+  <tr><td><a href="https://ascopubs.org" target="_blank">ASCO Journals</a></td><td>DeLLphi-304 primary analysis; DeLLphi-305; obrixtamig Phase I</td></tr>
+  <tr><td><a href="https://aacrjournals.org" target="_blank">AACR Journals</a></td><td>DAREON-5 abstract</td></tr>
+  <tr><td><a href="https://www.nejm.org" target="_blank">NEJM</a></td><td>Tarlatamab in post-platinum SCLC (DeLLphi-304 data)</td></tr>
+  <tr><td><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed / NCBI</a></td><td>Obrixtamig Phase I; ifinatamab; IDeate-Lung02</td></tr>
+  <tr><td><a href="https://pmc.ncbi.nlm.nih.gov" target="_blank">PMC</a></td><td>SCLC treatment landscape reviews</td></tr>
+  <tr><td><a href="https://www.thelancet.com" target="_blank">The Lancet</a></td><td>IMforte (lurbinectedin + atezolizumab) results</td></tr>
+  <tr><td><a href="https://www.jto.org" target="_blank">JTO</a></td><td>DeLLphi-305 abstract</td></tr>
+  <tr><td><a href="https://www.everyone.org" target="_blank">Everyone.org</a></td><td>Tarlatamab European approval status; lurbinectedin EMA</td></tr>
+  <tr><td><a href="https://www.christie.nhs.uk" target="_blank">Christie NHS</a></td><td>Trial listings (NSCLC only — not applicable)</td></tr>
+  <tr><td><a href="https://www.uclh.nhs.uk" target="_blank">UCLH</a></td><td>Combination therapy trial listings</td></tr>
+  <tr><td><a href="https://emedicine.medscape.com" target="_blank">Medscape / eMedicine</a></td><td>SCLC treatment overview</td></tr>
+  <tr><td><a href="https://onlinelibrary.wiley.com" target="_blank">Wiley Online Library</a></td><td>ES-SCLC management review</td></tr>
+</table>
+</div>
+
+<script>
+  function toggle(btn) {
+    const body = btn.nextElementSibling;
+    const icon = btn.querySelector('.acc-icon');
+    const isOpen = !body.classList.contains('closed');
+    if (isOpen) {
+      body.style.maxHeight = body.scrollHeight + 'px';
+      requestAnimationFrame(() => {
+        body.style.maxHeight = '0';
+        body.classList.add('closed');
+        icon.classList.add('closed');
+      });
+    } else {
+      body.classList.remove('closed');
+      icon.classList.remove('closed');
+      body.style.maxHeight = body.scrollHeight + 'px';
+      body.addEventListener('transitionend', () => { body.style.maxHeight = 'none'; }, { once: true });
+    }
+  }
+  // First section open, all others closed by default
+  document.querySelectorAll('.acc-body').forEach((b, i) => {
+    if (i === 0) {
+      b.style.maxHeight = 'none';
+    } else {
+      b.style.maxHeight = '0';
+      b.classList.add('closed');
+      b.previousElementSibling.querySelector('.acc-icon').classList.add('closed');
+    }
+  });
+</script>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-# Dad — Schedule & Medications
+# Dad Medical Status
 Last updated: 5 March 2026, 10:21 GMT
 
 ---
@@ -62,7 +62,6 @@ Last updated: 5 March 2026, 10:21 GMT
 | Renal Unit | Dialysis queries | 01206 747576 |
 | GP — Hardwicke House Group Practice | GP / 2nd opinion | 01787 370011 |
 | Mr Lopez | Orthopaedic / Hip MRI — Turner Centre | — |
-| Addenbrooke's — Clinical Research Facility | Early Phase Oncology enquiries | 01223 254642 / cuh.crfenquiries@nhs.net |
 
 ---
 
@@ -75,8 +74,8 @@ Last updated: 5 March 2026, 10:21 GMT
 | Priority | Route | Next step |
 |----------|-------|-----------|
 | 1 | Ask Dr Ingles for referral to Phase I specialist centre | Addenbrooke's (~45 min) or UCLH (~60–70 min by train) |
-| 2 | Named patient access — tarlatamab (Imdylltra, Amgen) — MHRA conditionally approved Jan 2025. NICE declined Aug 2025 — not NHS routine. Hepatically cleared — may suit renal patients. Cost: substantial, likely not NHS-funded. | Ask Dr Ingles to contact Amgen UK: **01223 436441** |
-| 3 | Cancer Research UK trials matching service | Call **0300 123 4452** — free, will check current protocols |
+| 2 | Named patient access — tarlatamab (Imdylltra, Amgen) — MHRA conditionally approved Jan 2025. NICE declined Aug 2025 — not NHS routine. Hepatically cleared — may suit renal patients. Cost: substantial, likely not NHS-funded. | Ask Dr Ingles to contact Amgen UK: 01223 436441 |
+| 3 | Cancer Research UK trials matching service | Call 0300 123 4452 — free, will check current protocols |
 | 4 | Obrixtamig (DAREON-5 trial — Boehringer Ingelheim) — Phase II DLL3/CD3 T-cell engager. FDA Breakthrough Therapy. Likely excluded (ECOG, prior lines) — but worth confirming UK sites and renal criteria. | Contact Boehringer Ingelheim or UCLH/Addenbrooke's Early Phase Trials |
 
 ### Trial Status Summary
@@ -90,6 +89,29 @@ Last updated: 5 March 2026, 10:21 GMT
 | Obrixtamig (DAREON-5) | Enquire | Confirm UK sites and renal exclusion criteria before ruling out |
 
 *Trial landscape changes frequently. Research conducted 2 March 2026. Verify status before acting. Full research notes in [clinical-trials-research.md](../clinical-trials-research.md).*
+
+---
+
+## Questions for Dr Ingles
+
+| # | Question | Context |
+|---|----------|---------|
+| 1 | Phase I referral — Addenbrooke's or UCLH Early Phase Oncology | UCLH already contacted directly — awaiting response |
+| 2 | Tarlatamab named patient access — contact Amgen UK: 01223 436441 | Called 5 Mar — left Dad's profile and contact details. Awaiting response. |
+| 3 | Was tumour molecular profiling done? | Rare chance of actionable mutation |
+| 4 | Stereotactic radiotherapy (SABR) to specific metastases — was it considered? | Depends on location/number of metastases |
+| 5 | Obrixtamig (DAREON-5) — confirm UK trial sites and renal exclusion criteria | Boehringer Ingelheim Phase II trial |
+| 6 | Dexamethasone taper schedule | Awaiting instructions from team |
+
+---
+
+## Phase I Enquiries
+
+| Centre | Contact | Status |
+|--------|---------|--------|
+| UCLH — Cancer Clinical Trials Unit | uclh.cctuadministrators@nhs.net | 5 Mar — Emailed. Next: await response. |
+| Amgen UK — Named Patient Programme | 01223 436441 | 5 Mar — Called, left Dad's profile and contact details. Next: await response. |
+| Addenbrooke's — Early Phase Oncology | 01223 254642 / cuh.crfenquiries@nhs.net | 5 Mar — Called 01223 254642. Advised to check takepartinresearch.co.uk — checked, no cancer trials listed. Emailed cuh.crfenquiries@nhs.net. Next: await response. |
 
 ---
 
@@ -126,26 +148,3 @@ Last updated: 5 March 2026, 10:21 GMT
 | UCLH | Combination therapy trial listings |
 | Medscape / eMedicine | SCLC treatment overview |
 | Wiley Online Library | ES-SCLC management review |
-
----
-
-## Questions for Dr Ingles
-
-| # | Question | Context |
-|---|----------|---------|
-| 1 | Phase I referral — Addenbrooke's or UCLH Early Phase Oncology | UCLH already contacted directly — awaiting response |
-| 2 | Tarlatamab named patient access — contact Amgen UK: 01223 436441 | Called 5 Mar — left Dad's profile and contact details. Awaiting response. |
-| 3 | Was tumour molecular profiling done? | Rare chance of actionable mutation |
-| 4 | Stereotactic radiotherapy (SABR) to specific metastases — was it considered? | Depends on location/number of metastases |
-| 5 | Obrixtamig (DAREON-5) — confirm UK trial sites and renal exclusion criteria | Boehringer Ingelheim Phase II trial |
-| 6 | Dexamethasone taper schedule | Awaiting instructions from team |
-
----
-
-## Phase I Enquiries
-
-| Centre | Contact | Method | Status |
-|--------|---------|--------|--------|
-| UCLH — Cancer Clinical Trials Unit | uclh.cctuadministrators@nhs.net | Email | Emailed 5 Mar — awaiting response |
-| Amgen UK — Named Patient Programme | 01223 436441 | Call | Called 5 Mar — left Dad's profile and contact details. Awaiting response. |
-| Addenbrooke's — Early Phase Oncology | cuh.crfenquiries@nhs.net | Call + Email | Called 5 Mar (01223 254642). takepartinresearch.co.uk — no cancer trials listed. Emailed CRF 5 Mar — awaiting response. |
