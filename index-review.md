@@ -1,5 +1,5 @@
 # Dad — Schedule & Medications
-Last updated: 2 March 2026, 22:36 GMT
+Last updated: 5 March 2026, 07:53 GMT
 
 ---
 
@@ -13,10 +13,8 @@ Last updated: 2 March 2026, 22:36 GMT
 
 | Date & Time | Appointment | Duration | Type | Transport | Contact |
 |-------------|-------------|----------|------|-----------|---------|
-| Tue 3 Mar 11:15 | **Radiotherapy — Session 5 (LAST)** — ARIA Radiation Oncology, Colchester Hospital | ~30 mins | Outpatient | Mum | — |
-| Tue 3 Mar 12:00 | Chairlift installation — James visiting home — 7 Pippin Close, Assington, CO10 5NH | — | Home visit | James | — |
-| Wed 4 Mar TBC | Dialysis — Renal Unit, Colchester Hospital | 3.5 hrs | Outpatient | **TBC** | 01206 747576 |
-| ~Mon 9 Mar | Community Palliative Care — first contact — awaiting their call. Referred 2 March 2026. | — | Awaiting call | — | If no contact by 9 Mar, call Oncology nurses: 01206 745097 |
+| Mon 9 Mar 16:20 | **Hip MRI** — Mr Lopez, Turner Centre | — | Outpatient | TBC | — |
+| Mon 9 Mar | Community Palliative Care — in contact | — | Ongoing | — | — |
 | ~Tue 14 Apr | Chest X-ray — radiotherapy response assessment — Radiology, Colchester Hospital — to be booked | — | To book | TBC | — |
 
 **Dialysis pattern:** HDF (Haemodiafiltration) via CVC, 3.5 hrs per session. Twice a week. Confirm each session time with Renal Unit (01206 747576).
@@ -29,9 +27,8 @@ Last updated: 2 March 2026, 22:36 GMT
 
 | Action | Who | Status |
 |--------|-----|--------|
-| Confirm Wed 4 Mar dialysis — get time and arrange transport | Michael / Mum | URGENT |
-| Palliative care — if no contact by ~9 Mar, call Oncology nurses: 01206 745097 | Family | Watching |
-| Rebook Hip MRI — contact Mr Lopez, Turner Centre | Michael / Mum | URGENT |
+| Hip MRI — Mon 9 Mar 16:20, Mr Lopez, Turner Centre | Michael / Mum | Booked |
+| Palliative Care team | Family | In contact |
 | Dexamethasone taper schedule — await instructions from Dr Ingles / team | Family | Awaiting |
 | GP appointment — seek 2nd opinion on treatment options (Hardwicke House: 01787 370011) | Family | To do |
 | Book chest X-ray at approx 6 weeks post radiotherapy (~14 April 2026) | Michael / Mum | To do |
