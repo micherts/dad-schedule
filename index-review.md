@@ -14,7 +14,6 @@ Last updated: 5 March 2026, 07:53 GMT
 | Date & Time | Appointment | Duration | Type | Transport | Contact |
 |-------------|-------------|----------|------|-----------|---------|
 | Mon 9 Mar 16:20 | **Hip MRI** — Mr Lopez, Turner Centre | — | Outpatient | TBC | — |
-| Mon 9 Mar | Community Palliative Care — in contact | — | Ongoing | — | — |
 | ~Tue 14 Apr | Chest X-ray — radiotherapy response assessment — Radiology, Colchester Hospital — to be booked | — | To book | TBC | — |
 
 **Dialysis pattern:** HDF (Haemodiafiltration) via CVC, 3.5 hrs per session. Twice a week. Confirm each session time with Renal Unit (01206 747576).
@@ -53,7 +52,7 @@ Last updated: 5 March 2026, 07:53 GMT
 
 | Name / Team | Role | Contact |
 |-------------|------|---------|
-| Community Palliative Care | **Main contact going forward** — referred 2 March | Awaiting first call (expect by ~9 Mar) |
+| Community Palliative Care | **Main contact going forward** | In contact |
 | Oncology nurses | Any queries — call anytime | 01206 745097 |
 | Dr Charlotte Ingle | Clinical Oncology | 01206 745087 |
 | Dr Safin Rahman | Thoracic Medicine | 01206 746462 |
